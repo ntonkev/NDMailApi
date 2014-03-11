@@ -1,0 +1,29 @@
+[0m[[0minfo[0m] [0mRunning Boot [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	C:\projects\NDMailApi\target\scala-2.10\classes[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Nikola\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.2.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Nikola\.ivy2\cache\scala_2.10\sbt_0.13\com.github.mpeltonen\sbt-idea\jars\sbt-idea-1.6.0.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Nikola\.ivy2\cache\commons-io\commons-io\jars\commons-io-2.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Nikola\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.2.0.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Nikola\.ivy2\cache\com.typesafe\config\bundles\config-1.0.2.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Nikola\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.10\bundles\akka-slf4j_2.10-2.2.0.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Nikola\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.2.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Nikola\.ivy2\cache\io.spray\spray-can\jars\spray-can-1.2-20130712.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Nikola\.ivy2\cache\io.spray\spray-io\jars\spray-io-1.2-20130712.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Nikola\.ivy2\cache\io.spray\spray-util\jars\spray-util-1.2-20130712.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Nikola\.ivy2\cache\io.spray\spray-http\jars\spray-http-1.2-20130712.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Nikola\.ivy2\cache\org.parboiled\parboiled-scala_2.10\bundles\parboiled-scala_2.10-1.1.5.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Nikola\.ivy2\cache\org.parboiled\parboiled-core\bundles\parboiled-core-1.1.5.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Nikola\.ivy2\cache\io.spray\spray-routing\jars\spray-routing-1.2-20130712.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Nikola\.ivy2\cache\io.spray\spray-httpx\jars\spray-httpx-1.2-20130712.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Nikola\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.2.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Nikola\.ivy2\cache\com.chuusai\shapeless_2.10\jars\shapeless_2.10-1.2.4.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Nikola\.ivy2\cache\io.spray\spray-json_2.10\jars\spray-json_2.10-1.2.3.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread NDMailApi-akka.actor.default-dispatcher-4 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread NDMailApi-akka.actor.default-dispatcher-4 exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+[0m[[0mdebug[0m] [0mExited with code 0[0m

@@ -1,0 +1,1348 @@
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: ndmailapi#ndmailapi$sources_javadoc_2.10;1.0[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a3e8350[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.2] org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.github.mpeltonen#sbt-idea;1.6.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e71caab[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.mpeltonen#sbt-idea;1.6.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.github.mpeltonen#sbt-idea;1.6.0[0m
+[0m[[0mdebug[0m] [0m	found com.github.mpeltonen#sbt-idea;1.6.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[1.6.0] com.github.mpeltonen#sbt-idea;1.6.0[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e7652d2[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-io#commons-io;2.0.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: commons-io#commons-io;2.0.1[0m
+[0m[[0mdebug[0m] [0m	found commons-io#commons-io;2.0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.2.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b120064[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.2.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-actor_2.10;2.2.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.10;2.2.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.0.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27f66283[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.0.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe#config;1.0.2[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.0.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-slf4j_2.10;2.2.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51104bf9[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.10;2.2.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-slf4j_2.10;2.2.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-slf4j_2.10;2.2.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fa28f15[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving io.spray#spray-can;1.2-20130712 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f2bfafc[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.spray#spray-can;1.2-20130712[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: io.spray#spray-can;1.2-20130712[0m
+[0m[[0mdebug[0m] [0m	found io.spray#spray-can;1.2-20130712 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving io.spray#spray-io;1.2-20130712 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6692eb4f[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.spray#spray-io;1.2-20130712[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: io.spray#spray-io;1.2-20130712[0m
+[0m[[0mdebug[0m] [0m	found io.spray#spray-io;1.2-20130712 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving io.spray#spray-util;1.2-20130712 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2212f885[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.spray#spray-util;1.2-20130712[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: io.spray#spray-util;1.2-20130712[0m
+[0m[[0mdebug[0m] [0m	found io.spray#spray-util;1.2-20130712 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving io.spray#spray-http;1.2-20130712 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11fbf161[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.spray#spray-http;1.2-20130712[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: io.spray#spray-http;1.2-20130712[0m
+[0m[[0mdebug[0m] [0m	found io.spray#spray-http;1.2-20130712 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.parboiled#parboiled-scala_2.10;1.1.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@378b6c80[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.parboiled#parboiled-scala_2.10;1.1.5[0m
+[0m[[0mdebug[0m] [0m	found org.parboiled#parboiled-scala_2.10;1.1.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.parboiled#parboiled-core;1.1.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45a41998[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.parboiled#parboiled-core;1.1.5[0m
+[0m[[0mdebug[0m] [0m	found org.parboiled#parboiled-core;1.1.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving io.spray#spray-routing;1.2-20130712 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@653c2b39[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.spray#spray-routing;1.2-20130712[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: io.spray#spray-routing;1.2-20130712[0m
+[0m[[0mdebug[0m] [0m	found io.spray#spray-routing;1.2-20130712 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving io.spray#spray-httpx;1.2-20130712 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c8e8990[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.spray#spray-httpx;1.2-20130712[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: io.spray#spray-httpx;1.2-20130712[0m
+[0m[[0mdebug[0m] [0m	found io.spray#spray-httpx;1.2-20130712 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.jvnet.mimepull#mimepull;1.9.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cdbd9b4[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.jvnet.mimepull#mimepull;1.9.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.jvnet.mimepull#mimepull;1.9.2[0m
+[0m[[0mdebug[0m] [0m	found org.jvnet.mimepull#mimepull;1.9.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.chuusai#shapeless_2.10;1.2.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@611a2a7f[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.chuusai#shapeless_2.10;1.2.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.chuusai#shapeless_2.10;1.2.4[0m
+[0m[[0mdebug[0m] [0m	found com.chuusai#shapeless_2.10;1.2.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving io.spray#spray-json_2.10;1.2.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a298051[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.spray#spray-json_2.10;1.2.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: io.spray#spray-json_2.10;1.2.3[0m
+[0m[[0mdebug[0m] [0m	found io.spray#spray-json_2.10;1.2.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [test->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->commons-io#commons-io;2.0.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe#config;1.0.2 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.2 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-can;1.2-20130712 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-io;1.2-20130712 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-util;1.2-20130712 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-http;1.2-20130712 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-scala_2.10;1.1.5 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.parboiled#parboiled-core;1.1.5 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-routing;1.2-20130712 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-httpx;1.2-20130712 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.jvnet.mimepull#mimepull;1.9.2 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->com.chuusai#shapeless_2.10;1.2.4 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->io.spray#spray-json_2.10;1.2.3 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [scala-tool->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.2 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.2 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.10.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.2 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.2 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.2 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.2 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.2 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-reflect;2.10.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.2] org.scala-lang#scala-reflect;2.10.2[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.2 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.2 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.2 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#jline;2.10.2 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.2 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#jline;2.10.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#jline;2.10.2 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#jline;2.10.2 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.scala-lang#jline;2.10.2 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ndmailapi#ndmailapi$sources_javadoc_2.10;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in C:\projects\NDMailApi\target\resolution-cache\ndmailapi\ndmailapi$sources_javadoc_2.10\1.0\resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.2!scala-library.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.2!scala-library.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.6.0!sbt-idea.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.6.0!sbt-idea.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.6.0!sbt-idea.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.2.0!akka-actor_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.2.0!akka-actor_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.2.0!akka-actor_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.0.2!config.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.0.2!config.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.0.2!config.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.10;2.2.0!akka-slf4j_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.10;2.2.0!akka-slf4j_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.10;2.2.0!akka-slf4j_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\Nikola\.ivy2\local\org.slf4j\slf4j-api\1.7.2\srcs\slf4j-api-sources.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.2!slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\Nikola\.ivy2\local\org.slf4j\slf4j-api\1.7.2\docs\slf4j-api-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.2!slf4j-api.jar(src) (431ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-javadoc.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-javadoc.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-javadoc.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.2!slf4j-api.jar(doc) (347ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-can;1.2-20130712!spray-can.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-can;1.2-20130712!spray-can.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-can;1.2-20130712!spray-can.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-io;1.2-20130712!spray-io.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-io;1.2-20130712!spray-io.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-io;1.2-20130712!spray-io.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-util;1.2-20130712!spray-util.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-util;1.2-20130712!spray-util.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-util;1.2-20130712!spray-util.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-http;1.2-20130712!spray-http.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-http;1.2-20130712!spray-http.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-http;1.2-20130712!spray-http.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.parboiled#parboiled-scala_2.10;1.1.5!parboiled-scala_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.parboiled#parboiled-scala_2.10;1.1.5!parboiled-scala_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.parboiled#parboiled-scala_2.10;1.1.5!parboiled-scala_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.5!parboiled-core.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.5!parboiled-core.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.5!parboiled-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-routing;1.2-20130712!spray-routing.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-routing;1.2-20130712!spray-routing.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-routing;1.2-20130712!spray-routing.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-httpx;1.2-20130712!spray-httpx.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-httpx;1.2-20130712!spray-httpx.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-httpx;1.2-20130712!spray-httpx.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jvnet.mimepull#mimepull;1.9.2!mimepull.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jvnet.mimepull#mimepull;1.9.2!mimepull.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jvnet.mimepull#mimepull;1.9.2!mimepull.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.chuusai#shapeless_2.10;1.2.4!shapeless_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.chuusai#shapeless_2.10;1.2.4!shapeless_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.chuusai#shapeless_2.10;1.2.4!shapeless_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-json_2.10;1.2.3!spray-json_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-json_2.10;1.2.3!spray-json_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-json_2.10;1.2.3!spray-json_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.2!scala-compiler.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.2!scala-compiler.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.2!scala-reflect.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.2!scala-reflect.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.2!jline.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.2!jline.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(doc)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 594ms :: artifacts dl 1013ms[0m
+[0m[[0mdebug[0m] [0m	report for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 compile produced in C:\projects\NDMailApi\target\resolution-cache\reports\ndmailapi-ndmailapi$sources_javadoc_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 runtime produced in C:\projects\NDMailApi\target\resolution-cache\reports\ndmailapi-ndmailapi$sources_javadoc_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 test produced in C:\projects\NDMailApi\target\resolution-cache\reports\ndmailapi-ndmailapi$sources_javadoc_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 provided produced in C:\projects\NDMailApi\target\resolution-cache\reports\ndmailapi-ndmailapi$sources_javadoc_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 optional produced in C:\projects\NDMailApi\target\resolution-cache\reports\ndmailapi-ndmailapi$sources_javadoc_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 compile-internal produced in C:\projects\NDMailApi\target\resolution-cache\reports\ndmailapi-ndmailapi$sources_javadoc_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 runtime-internal produced in C:\projects\NDMailApi\target\resolution-cache\reports\ndmailapi-ndmailapi$sources_javadoc_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 test-internal produced in C:\projects\NDMailApi\target\resolution-cache\reports\ndmailapi-ndmailapi$sources_javadoc_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 plugin produced in C:\projects\NDMailApi\target\resolution-cache\reports\ndmailapi-ndmailapi$sources_javadoc_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 sources produced in C:\projects\NDMailApi\target\resolution-cache\reports\ndmailapi-ndmailapi$sources_javadoc_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 docs produced in C:\projects\NDMailApi\target\resolution-cache\reports\ndmailapi-ndmailapi$sources_javadoc_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 pom produced in C:\projects\NDMailApi\target\resolution-cache\reports\ndmailapi-ndmailapi$sources_javadoc_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for ndmailapi#ndmailapi$sources_javadoc_2.10;1.0 scala-tool produced in C:\projects\NDMailApi\target\resolution-cache\reports\ndmailapi-ndmailapi$sources_javadoc_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (594ms resolve - 1013ms download)[0m
