@@ -14,7 +14,12 @@ import spray.httpx.Json4sSupport
 /**
  * Created by Nikola on 3/4/14.
 */
+/*
 class TestActor extends Actor with TestService with ActorLogging{
   def actorRefFactory = context
   def receive = runRoute(testRoute)
 }
+*/
+
+
+

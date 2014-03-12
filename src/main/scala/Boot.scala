@@ -1,12 +1,17 @@
 import akka.actor.{ActorSystem, Props}
 import akka.io.IO
+import api.Api
+import core._
 import spray.can.Http
+import web.Web
 
-import core.TestActor
+//import core.TestActor
 
 /**
  * Created by Nikola on 3/5/14.
  */
+
+/*
 object Boot extends App {
   implicit val system = ActorSystem("NDMailApi")
 
@@ -20,4 +25,16 @@ object Boot extends App {
   val result = readLine()
 
   system.shutdown()
+}
+*/
+
+object Boot extends App with Core with CoreActors with Api with Web
+{
+
+  implicit lazy val system = ActorSystem("NDMailApi")
+
+  println("Hit any key to stop the service.")
+  val result = readLine()
+  system.shutdown()
+
 }
