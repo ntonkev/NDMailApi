@@ -1,4 +1,5 @@
 import sbt._
+import Keys._
 
 name := "NDMailApi"
 
@@ -10,7 +11,7 @@ resolvers += "spray repo" at "http://repo.spray.io"
 
 resolvers += "spray nightlies" at "http://nightlies.spray.io"
 
-addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.6.0")
+//addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.6.0")
 
 
 libraryDependencies ++= Seq(

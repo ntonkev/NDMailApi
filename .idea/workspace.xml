@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49a11678-11c6-4e60-96bb-48a3291e45cb" name="Default" comment="">
+    <list default="true" id="49a11678-11c6-4e60-96bb-48a3291e45cb" name="Default" comment="Initial commit&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/models/NDApiRequest.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/NDMailRestApi.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="DELETED" beforePath="C:\projects\NDMailApi\src\main\scala\core\test.scala" afterPath="" />
+      <change type="MOVED" beforePath="C:\projects\NDMailApi\src\main\scala\Boot.scala" afterPath="$PROJECT_DIR$/src/main/scala/core/Boot.scala" />
+      <change type="MOVED" beforePath="C:\projects\NDMailApi\src\main\scala\api\TestWorkerActor.scala" afterPath="$PROJECT_DIR$/src/main/scala/api/TestActor.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/api/Api.scala" afterPath="$PROJECT_DIR$/src/main/scala/api/Api.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/core/Core.scala" afterPath="$PROJECT_DIR$/src/main/scala/core/Core.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/core/CoreActores.scala" afterPath="$PROJECT_DIR$/src/main/scala/core/CoreActores.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/api/DefaultJsonFormats.scala" afterPath="$PROJECT_DIR$/src/main/scala/api/DefaultJsonFormats.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/web/RoutedHttpService.scala" afterPath="$PROJECT_DIR$/src/main/scala/web/RoutedHttpService.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/api/TestService.scala" afterPath="$PROJECT_DIR$/src/main/scala/api/TestService.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/web/Web.scala" afterPath="$PROJECT_DIR$/src/main/scala/web/Web.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.conf" afterPath="$PROJECT_DIR$/src/main/resources/application.conf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NDMailApi.iws" />
@@ -771,7 +785,7 @@
       <workItem from="1394512793449" duration="20399000" />
       <workItem from="1394768655373" duration="17068000" />
       <workItem from="1394928127427" duration="79000" />
-      <workItem from="1394943515702" duration="14111000" />
+      <workItem from="1394943515702" duration="13414000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1394623466625</created>
@@ -781,19 +795,11 @@
       <created>1394623496680</created>
       <updated>1394623496680</updated>
     </task>
-    <task id="LOCAL-00003" summary="Initial commit&#10;">
-      <created>1395032408455</created>
-      <updated>1395032408455</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Initial commit&#10;">
-      <created>1395096401731</created>
-      <updated>1395096401731</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54560000" />
+    <option name="totallyTimeSpent" value="53863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1692" height="1026" extended-state="0" />
