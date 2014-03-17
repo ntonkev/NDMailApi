@@ -3,10 +3,12 @@ package api
 import spray.routing.{HttpService, Directives}
 import akka.actor.{Props, ActorRef, ActorRefFactory}
 import akka.util.Timeout
+import models.Person
+
 //import spray.httpx.{Json4sSupport, SprayJsonSupport}
 import spray.routing._
 import scala.concurrent.ExecutionContext
-import api.TestActor.Test
+import api.TestActor.{GetPerson, Test}
 
 
 class TestService(testing: ActorRef)(implicit context: ExecutionContext)
@@ -27,5 +29,15 @@ class TestService(testing: ActorRef)(implicit context: ExecutionContext)
           }
 
       }
+    }~
+    path("person"){
+      //personId: Int => {
+      get {
+        complete{
+          "OK"
+          //GetPerson(personId)
+        }
+      }
     }
+
 }
