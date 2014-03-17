@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49a11678-11c6-4e60-96bb-48a3291e45cb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/api/TestActor.scala" afterPath="$PROJECT_DIR$/src/main/scala/api/TestActor.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/api/TestService.scala" afterPath="$PROJECT_DIR$/src/main/scala/api/TestService.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NDMailApi.iws" />
@@ -828,7 +826,7 @@
       <workItem from="1394928127427" duration="79000" />
       <workItem from="1394943515702" duration="13414000" />
       <workItem from="1395061929816" duration="1698000" />
-      <workItem from="1395064086339" duration="5078000" />
+      <workItem from="1395064086339" duration="5104000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1394623466625</created>
@@ -842,11 +840,15 @@
       <created>1395064137022</created>
       <updated>1395064137023</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ErrorStatus enumeration has been created&#10;NDApiRequest extended with ErrorStatus&#10;">
+      <created>1395091299290</created>
+      <updated>1395091299290</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60639000" />
+    <option name="totallyTimeSpent" value="60665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
