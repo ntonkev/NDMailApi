@@ -1,14 +1,9 @@
 package core
 
 import akka.actor.Props
-import api.TestWorkerActor
+import api.{TestActor}
 
-/**
- * Created by Nikola on 3/11/14.
- */
-trait CoreActors {
+trait CoreActors{
   this: Core =>
-    val test = system.actorOf(Props[TestWorkerActor])
-    //val test = system.actorOf(Props[TestActor])
-
+    val testing = system.actorOf(Props[TestActor])
 }

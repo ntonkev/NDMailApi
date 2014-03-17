@@ -10,9 +10,6 @@ import scala.util.control.NonFatal
 
 case class ErrorResponseException(responseStatus: StatusCode, response: Option[HttpEntity]) extends Exception
 
-/**
- * Created by Nikola on 3/11/14.
- */
 class RoutedHttpService(route: Route) extends Actor with HttpService with SprayActorLogging {
 
   implicit def actorRefFactory = context
