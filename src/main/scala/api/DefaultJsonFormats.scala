@@ -23,7 +23,7 @@ trait DefaultJsonFormats extends DefaultJsonProtocol with SprayJsonSupport with 
     def write(x: UUID) = JsString(x.toString)
     def read(value: JsValue) = value match {
       case JsString(x) => UUID.fromString(x)
-      case x           => deserializationError("Expected UUID as JsString, but got " + x)
+      case x           => deserializationError("Wrong UUID format, Expected UUID but got " + x)
     }
   }
 

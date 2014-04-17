@@ -3,9 +3,8 @@ package api
 import spray.routing.{HttpService, Directives}
 import akka.actor.{Props, ActorRef, ActorRefFactory}
 import akka.util.Timeout
-import models.Person
+import models.{NDApiRequest, Person}
 
-//import spray.httpx.{Json4sSupport, SprayJsonSupport}
 import spray.routing._
 import scala.concurrent.ExecutionContext
 import api.TestActor.{GetPerson, Test}
@@ -14,12 +13,14 @@ import api.TestActor.{GetPerson, Test}
 class TestService(testing: ActorRef)(implicit context: ExecutionContext)
   extends Directives with  DefaultJsonFormats {
 
-  import akka.pattern.ask
   import scala.concurrent.duration._
   implicit val timeout = Timeout(5.seconds)
 
+  implicit val PersonFormater = jsonFormat4(Person)
+  implicit val NDRequestFormater = jsonFormat4(NDApiRequest[Person])
+
   val route =
-    path("test4e") {
+    path("test") {
       get {
         //handleWith { tt: Test => testing ! tt }
 
@@ -31,11 +32,13 @@ class TestService(testing: ActorRef)(implicit context: ExecutionContext)
       }
     }~
     path("person"){
-      //personId: Int => {
-      get {
-        complete{
-          "OK"
-          //GetPerson(personId)
+      //entity(as[Person]){ ent =>
+      entity(as[NDApiRequest[Person]]){ ent =>
+        get {
+          complete{
+            ent
+            //GetPerson(personId)
+          }
         }
       }
     }

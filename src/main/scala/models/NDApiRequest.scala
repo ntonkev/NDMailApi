@@ -12,6 +12,7 @@ import ErrorStatus._
 case class NDApiRequest[G] (
   ClientGuid: UUID,
   AuthGuyd: UUID,
+  DeviceUniqueId: UUID,
   data: G
 )
 
