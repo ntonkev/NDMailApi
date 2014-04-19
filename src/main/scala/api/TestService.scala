@@ -17,7 +17,7 @@ class TestService(testing: ActorRef)(implicit context: ExecutionContext)
   implicit val timeout = Timeout(5.seconds)
 
   implicit val PersonFormater = jsonFormat4(Person)
-  implicit val NDRequestFormater = jsonFormat4(NDApiRequest[Person])
+  implicit val NDRequestFormater = jsonFormat3(NDApiRequest[Person])
 
   val route =
     path("test") {

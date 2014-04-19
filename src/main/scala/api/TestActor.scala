@@ -12,7 +12,8 @@ object TestActor{
 trait PersonBLL{
 
   def GetPersonById(personId: Int) = {
-    val person = new Person(1, "Nikola", "Tonkev", 36)
+    //val person = new Person(1, "Nikola", "Tonkev", 36)
+    val person = new Person(1)
     person
   }
 

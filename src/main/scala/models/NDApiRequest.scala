@@ -5,12 +5,11 @@ import models.ErrorStatus.ErrorStatus
 
 object ErrorStatus extends Enumeration {
   type ErrorStatus = Value
-  val None, NotAuthenticated, NotAutorized, BadAuthGuidFormat, MissingAuthGuid, AuthExpired = Value
+  val None, NotAuthenticated, NotAutorized, BadAuthGuidFormat, MissingAuthGuid, MissingDevUniqueId, AuthExpired = Value
 }
 import ErrorStatus._
 
 case class NDApiRequest[G] (
-  ClientGuid: UUID,
   AuthGuyd: UUID,
   DeviceUniqueId: UUID,
   data: G
