@@ -6,6 +6,7 @@ import spray.routing._
 import akka.actor.Actor
 import spray.util.{LoggingContext, SprayActorLogging}
 import scala.util.control.NonFatal
+import Auth.AuthenticationDirectives
 
 
 case class ErrorResponseException(responseStatus: StatusCode, response: Option[HttpEntity]) extends Exception

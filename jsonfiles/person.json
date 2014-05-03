@@ -1,0 +1,15 @@
+
+
+ /*
+
+//curl -v -H "Content-Type: application/json" -H "Accept: application/json" -d "{\"ClientGuid\": \"550e8400-e29b-41d4-a716-446655440000\", \"AuthGuyd\": \"550e8400-e29b-41d4-a716-446655440000\", \"DeviceUniqueId\": \"550e8400-e29b-41d4-a716-446655440000\", \"data\": { \"PersonId\": 27, \"Name\": \"Alexandr\", \"Family\": \"Moroz\", \"Age\": 30 }}" -X GET http://localhost:8080/person/
+//curl -v -H "Content-Type: application/json" -H "Accept: application/json" -d "{\"ClientGuid\": \"550e8400-e29b-41d4-a716-446655440000\", \"AuthGuyd\": \"550e8400-e29b-41d4-a716-446655440000\", \"DeviceUniqueId\": \"550e8400-e29b-41d4-a716-446655440777\", \"data\": { \"PersonId\": 27, \"Name\": \"Alexandr\", \"Family\": \"Moroz\", \"Age\": 30 }}" -X GET http://localhost:8080/person/
+
+
+//curl -v -H "Content-Type: application/json" -H "Accept: application/json" -d "{\"ClientGuid\": \"550e8400-e29b-41d4-a716-446655440000\", \"AuthGuyd\": \"550e8400-e29b-41d4-a716-446655440000\", \"DeviceUniqueId\": \"550e8400-e29b-41d4-a716-446655440000\", \"data\": { \"PersonId\": 27, \"Name\": \"Alexandr\",  \"Age\": 30 }}" -X GET http://localhost:8080/person
+
+
+//curl -v -H "Content-Type: application/json" -H "Accept: application/json" -X GET http://localhost:8080/test
+
+
+  */
