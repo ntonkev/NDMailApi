@@ -3,14 +3,17 @@ package api
 import spray.routing.{HttpService, Directives}
 import akka.actor.{Props, ActorRef, ActorRefFactory}
 import akka.util.Timeout
-import models.{ErrorStatus, AuthTokens, NDApiRequest, Person}
+import models._
 
 import spray.routing._
 import scala.concurrent.ExecutionContext
-import api.TestActor.{GetPerson, Test}
+import api.TestActor._
 import Auth.{AuthenticationDirectives}
-import models.ErrorStatus.ErrorStatus
-import models.ErrorStatus
+import spray.http.HttpResponse
+import models.NDApiRequest
+import models.Person
+import models.AuthTokens
+import spray.json.JsObject
 
 class TestService(testing: ActorRef)(implicit context: ExecutionContext)
   extends Directives with  DefaultJsonFormats with AuthenticationDirectives
@@ -21,6 +24,17 @@ class TestService(testing: ActorRef)(implicit context: ExecutionContext)
 
   implicit val PersonFormater = jsonFormat4(Person)
   implicit val NDRequestFormater = jsonFormat3(NDApiRequest[Person])
+  //implicit val NDErrorStatusFormater = jsonFormat9(ErrorStatus)
+  implicit val NDResponseFormater = jsonFormat3(NDApiResponse[Person])
+
+  /*
+  val myRejectionHandler = RejectionHandler {
+    case AuthenticationFailedRejection(realm) :: _ =>
+      complete{ "Naaah, boy!!" }
+  }
+
+  this.handleRejections(myRejectionHandler)
+   */
 
   val route =
     path("test") {
@@ -40,7 +54,10 @@ class TestService(testing: ActorRef)(implicit context: ExecutionContext)
             val tokens = new AuthTokens(ent.AuthGuyd, ent.DeviceUniqueId)
             authenticate(authenticateUser(tokens)) { st =>
               complete {
-                ent
+                //ent
+                val person = GetPerson(1)
+                val response = new NDApiResponse[Person](ErrorStatus.None, "", person)
+                response
               }
             }
           }

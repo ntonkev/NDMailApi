@@ -1,12 +1,11 @@
 package api
 
-import spray.routing.RouteConcatenation
+import spray.routing.{RouteConcatenation}
 import akka.actor.{Props, ActorRefFactory}
 import core.{Core, CoreActors}
 import web.RoutedHttpService
 
-
-trait Api extends RouteConcatenation{
+trait Api extends RouteConcatenation {
   this: CoreActors with Core =>
 
     private implicit val _ = system.dispatcher

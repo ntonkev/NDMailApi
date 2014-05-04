@@ -7,6 +7,7 @@ import scala.reflect.ClassTag
 import java.util.UUID
 import spray.http.StatusCode
 import web.ErrorResponseException
+import models.ErrorStatus
 
 /**
  * Created by Nikola on 3/11/14.
@@ -26,6 +27,17 @@ trait DefaultJsonFormats extends DefaultJsonProtocol with SprayJsonSupport with 
       case x           => deserializationError("Wrong UUID format, Expected UUID but got " + x)
     }
   }
+
+
+  implicit object ErrorStatusFormater extends RootJsonFormat[ErrorStatus.ErrorStatus] {
+    def write(obj: ErrorStatus.ErrorStatus): JsValue = JsString(obj.toString)
+
+    def read(json: JsValue): ErrorStatus.ErrorStatus = json match {
+      case JsString(str) => ErrorStatus.withName(str)
+      case _ => throw new DeserializationException("Enum string expected")
+    }
+  }
+
 
   type ErrorSelector[A] = A => StatusCode
 
