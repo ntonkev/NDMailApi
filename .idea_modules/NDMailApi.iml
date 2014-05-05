@@ -4,7 +4,7 @@
     <facet type="scala" name="Scala">
       <configuration>
         <option name="compilerLibraryLevel" value="Project" />
-        <option name="compilerLibraryName" value="SBT: scala:2.10.2" />
+        <option name="compilerLibraryName" value="SBT: scala:2.10.4" />
         <option name="fsc" value="true" />
       </configuration>
     </facet>
@@ -24,7 +24,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.2" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.4" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe.akka:akka-actor_2.10:2.2.0" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe:config:1.0.2" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe.akka:akka-slf4j_2.10:2.2.0" level="project" />

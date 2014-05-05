@@ -13,13 +13,17 @@ case class ErrorResponseException(responseStatus: StatusCode, response: Option[H
 class RoutedHttpService(route: Route) extends Actor with HttpService with SprayActorLogging {
 
   implicit def actorRefFactory = context
-
+  /*
   implicit val NDRejectionHandler = RejectionHandler{
     case AuthenticationFailedRejection(realm) :: _ =>
       complete(Unauthorized, "This request have not been authorized")
   }
+  */
 
-
+  implicit val NDRejectionHandler = RejectionHandler{
+    case AuthenticationFailedRejection(realm) :: _ => ctx =>
+      ctx.complete(Unauthorized, "This request have not been authorized !!!")
+  }
 
   implicit val handler = ExceptionHandler {
     case NonFatal(ErrorResponseException(statusCode, entity)) => ctx =>
@@ -31,9 +35,10 @@ class RoutedHttpService(route: Route) extends Actor with HttpService with SprayA
     }
   }
 
+  implicit val rejectionHandler = NDRejectionHandler// orElse RejectionHandler.Default
 
 //  def receive: Receive =
 //    runRoute(route)(handler, RejectionHandler.Default, context, RoutingSettings.default, LoggingContext.fromActorRefFactory)
   def receive: Receive =
-    runRoute(route)(handler, NDRejectionHandler, context, RoutingSettings.default, LoggingContext.fromActorRefFactory)
+    runRoute(route)(handler, rejectionHandler, context, RoutingSettings.default, LoggingContext.fromActorRefFactory)
 }
