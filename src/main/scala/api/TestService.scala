@@ -24,7 +24,6 @@ class TestService(testing: ActorRef)(implicit context: ExecutionContext)
 
   implicit val PersonFormater = jsonFormat4(Person)
   implicit val NDRequestFormater = jsonFormat3(NDApiRequest[Person])
-  //implicit val NDErrorStatusFormater = jsonFormat9(ErrorStatus)
   implicit val NDResponseFormater = jsonFormat3(NDApiResponse[Person])
 
   /*

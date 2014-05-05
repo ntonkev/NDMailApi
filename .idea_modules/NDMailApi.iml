@@ -4,7 +4,7 @@
     <facet type="scala" name="Scala">
       <configuration>
         <option name="compilerLibraryLevel" value="Project" />
-        <option name="compilerLibraryName" value="scala" />
+        <option name="compilerLibraryName" value="SBT: scala:2.10.2" />
         <option name="fsc" value="true" />
       </configuration>
     </facet>
@@ -40,7 +40,6 @@
     <orderEntry type="library" name="SBT: org.jvnet.mimepull:mimepull:1.9.2" level="project" />
     <orderEntry type="library" name="SBT: com.chuusai:shapeless_2.10:1.2.4" level="project" />
     <orderEntry type="library" name="SBT: io.spray:spray-json_2.10:1.2.3" level="project" />
-    <orderEntry type="library" name="scala" level="project" />
   </component>
 </module>
 

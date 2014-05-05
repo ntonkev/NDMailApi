@@ -6,11 +6,14 @@ import spray.routing._
 import akka.actor.Actor
 import spray.util.{LoggingContext, SprayActorLogging}
 import scala.util.control.NonFatal
-import Auth.AuthenticationDirectives
+import api.DefaultJsonFormats
+import models.{ErrorStatus, NDApiResponse}
 
 case class ErrorResponseException(responseStatus: StatusCode, response: Option[HttpEntity]) extends Exception
 
-class RoutedHttpService(route: Route) extends Actor with HttpService with SprayActorLogging {
+class RoutedHttpService(route: Route) extends Actor with HttpService with SprayActorLogging with  DefaultJsonFormats {
+
+  implicit val NDResponseFormater = jsonFormat3(NDApiResponse[String])
 
   implicit def actorRefFactory = context
   /*
@@ -21,8 +24,10 @@ class RoutedHttpService(route: Route) extends Actor with HttpService with SprayA
   */
 
   implicit val NDRejectionHandler = RejectionHandler{
-    case AuthenticationFailedRejection(realm) :: _ => ctx =>
-      ctx.complete(Unauthorized, "This request have not been authorized !!!")
+    case AuthenticationFailedRejection(realm) :: _ => ctx => {
+      val response = new NDApiResponse[String](ErrorStatus.NotAuthenticated, "This request have not been authorized !!!", "")
+      ctx.complete(response)
+    }
   }
 
   implicit val handler = ExceptionHandler {
