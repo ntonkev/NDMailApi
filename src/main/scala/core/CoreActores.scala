@@ -1,7 +1,7 @@
 package core
 
 import akka.actor.Props
-import api.{TestActor}
+import api._
 
 trait CoreActors{
   this: Core =>

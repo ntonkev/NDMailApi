@@ -5,7 +5,7 @@ name := "NDMailApi"
 
 version := "1.0"
 
-scalaVersion := "2.10.4"
+//scalaVersion := "2.10.3"
 
 resolvers += "spray repo" at "http://repo.spray.io"
 
