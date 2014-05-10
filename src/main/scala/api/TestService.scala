@@ -8,7 +8,7 @@ import models._
 import spray.routing._
 import scala.concurrent.ExecutionContext
 import api.TestActor._
-import Auth.{AuthenticationDirectives}
+//import Auth.{AuthenticationDirectives}
 import spray.http.HttpResponse
 import models.NDApiRequest
 import models.Person

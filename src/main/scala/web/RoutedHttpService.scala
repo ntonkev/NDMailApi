@@ -11,7 +11,7 @@ import models.{ErrorStatus, NDApiResponse}
 
 case class ErrorResponseException(responseStatus: StatusCode, response: Option[HttpEntity]) extends Exception
 
-class RoutedHttpService(route: Route) extends Actor with HttpService with SprayActorLogging with  DefaultJsonFormats {
+class RoutedHttpService(route: Route) extends Actor with HttpService with akka.actor.ActorLogging with  DefaultJsonFormats {
 
   implicit val NDResponseFormater = jsonFormat3(NDApiResponse[String])
 
