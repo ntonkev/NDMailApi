@@ -17,12 +17,14 @@ class RoutedHttpService(route: Route) extends Actor with HttpService with SprayA
 
   implicit def actorRefFactory = context
 
+  /*
   implicit val NDRejectionHandler = RejectionHandler{
-    case AuthenticationFailedRejection(realm) :: _ => ctx => {
+    case AuthenticationFailedRejection(CredentialsMissing, realm) :: _ => ctx => {
       val response = new NDApiResponse[String](ErrorStatus.NotAuthenticated, "This request have not been authorized !!!", "")
       ctx.complete(response)
     }
   }
+  */
 
   implicit val handler = ExceptionHandler {
     case NonFatal(ErrorResponseException(statusCode, entity)) => ctx =>
@@ -34,7 +36,8 @@ class RoutedHttpService(route: Route) extends Actor with HttpService with SprayA
     }
   }
 
-  implicit val rejectionHandler = NDRejectionHandler// orElse RejectionHandler.Default
+  //implicit val rejectionHandler = NDRejectionHandler
+  implicit val rejectionHandler = RejectionHandler.Default
 
   def receive: Receive =
     runRoute(route)(handler, rejectionHandler, context, RoutingSettings.default, LoggingContext.fromActorRefFactory)

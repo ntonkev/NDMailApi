@@ -10,6 +10,7 @@ import java.util.UUID
 import models.ErrorStatus.ErrorStatus
 import spray.routing.AuthenticationFailedRejection
 import models.AuthTokens
+import spray.routing.AuthenticationFailedRejection.CredentialsRejected
 
 
 trait AuthenticationDirectives {
@@ -40,7 +41,7 @@ trait AuthenticationDirectives {
       */
 
       Either.cond(CheckTokens(tokens),
-        ErrorStatus.None, AuthenticationFailedRejection("CredentialsRejected"))
+        ErrorStatus.None, AuthenticationFailedRejection(CredentialsRejected, Nil))
     }
   }
 

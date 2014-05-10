@@ -16,7 +16,7 @@ import models.AuthTokens
 import spray.json.JsObject
 
 class TestService(testing: ActorRef)(implicit context: ExecutionContext)
-  extends Directives with  DefaultJsonFormats with AuthenticationDirectives
+  extends Directives with  DefaultJsonFormats //with AuthenticationDirectives
 {
 
   import scala.concurrent.duration._
@@ -25,15 +25,6 @@ class TestService(testing: ActorRef)(implicit context: ExecutionContext)
   implicit val PersonFormater = jsonFormat4(Person)
   implicit val NDRequestFormater = jsonFormat3(NDApiRequest[Person])
   implicit val NDResponseFormater = jsonFormat3(NDApiResponse[Person])
-
-  /*
-  val myRejectionHandler = RejectionHandler {
-    case AuthenticationFailedRejection(realm) :: _ =>
-      complete{ "Naaah, boy!!" }
-  }
-
-  this.handleRejections(myRejectionHandler)
-   */
 
   val route =
     path("test") {
@@ -51,14 +42,14 @@ class TestService(testing: ActorRef)(implicit context: ExecutionContext)
       entity(as[NDApiRequest[Person]]) { ent =>
           get {
             val tokens = new AuthTokens(ent.AuthGuyd, ent.DeviceUniqueId)
-            authenticate(authenticateUser(tokens)) { st =>
+            //authenticate(authenticateUser(tokens)) { st =>
               complete {
                 //ent
                 val person = GetPerson(1)
                 val response = new NDApiResponse[Person](ErrorStatus.None, "", person)
                 response
               }
-            }
+            // }
           }
       }
     }
