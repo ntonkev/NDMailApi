@@ -8,7 +8,7 @@ import models._
 import spray.routing._
 import scala.concurrent.ExecutionContext
 import api.TestActor._
-//import Auth.{AuthenticationDirectives}
+import Auth.{AuthenticationDirectives}
 import spray.http.HttpResponse
 import models.NDApiRequest
 import models.Person
@@ -16,7 +16,7 @@ import models.AuthTokens
 import spray.json.JsObject
 
 class TestService(testing: ActorRef)(implicit context: ExecutionContext)
-  extends Directives with  DefaultJsonFormats //with AuthenticationDirectives
+  extends Directives with  DefaultJsonFormats with AuthenticationDirectives
 {
 
   import scala.concurrent.duration._
@@ -33,7 +33,7 @@ class TestService(testing: ActorRef)(implicit context: ExecutionContext)
 
           /* Works fine */
           complete {
-            "OK"
+            "Test route OK"
           }
 
       }
@@ -42,14 +42,14 @@ class TestService(testing: ActorRef)(implicit context: ExecutionContext)
       entity(as[NDApiRequest[Person]]) { ent =>
           get {
             val tokens = new AuthTokens(ent.AuthGuyd, ent.DeviceUniqueId)
-            //authenticate(authenticateUser(tokens)) { st =>
-              complete {
-                //ent
-                val person = GetPerson(1)
-                val response = new NDApiResponse[Person](ErrorStatus.None, "", person)
-                response
-              }
-            // }
+            authenticate(authenticateUser(tokens)) {
+              st =>
+                complete {
+                  val person = GetPerson(1)
+                  val response = new NDApiResponse[Person](ErrorStatus.None, "", person)
+                  response
+                 }
+            }
           }
       }
     }

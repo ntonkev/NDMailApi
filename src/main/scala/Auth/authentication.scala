@@ -33,7 +33,7 @@ trait AuthenticationDirectives {
         result
       }
 
-      /*
+      /*1
       if(CheckTokens(tokens))
         Right(ErrorStatus.None)
       else

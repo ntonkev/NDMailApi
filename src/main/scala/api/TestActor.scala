@@ -12,7 +12,7 @@ object TestActor{
     val name: Option[String] = Some("Desy")
     val family: Option[String] = Some("Slaveva")
     val age: Option[Int] = Some(38)
-    val person = new Person(37, name, family, age)
+    val person = new Person(personId, name, family, age)
     person
   }
 }
