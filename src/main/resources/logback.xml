@@ -1,19 +1,29 @@
 <configuration>
+    <appender name="AUTH-ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <prudent>true</prudent>
+        <append>true</append>
+        <!-- <file>./logs/auth/auth.log</file> -->
 
-    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>./logs/auth/auth-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>1KB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+
         <encoder>
-            <pattern>%date{HH:mm:ss} %-5level [%X{akkaSource}] - %msg%n</pattern>
+            <pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
         </encoder>
     </appender>
 
-    <logger name="akka" level="info" additivity="false">
-        <appender-ref ref="console" />
+
+    <logger name="auth-rolling" level="INFO">
+        <appender-ref ref="AUTH-ROLLING" />
     </logger>
 
-    <logger name="org.eigengo.sd" level="debug" additivity="false">
-        <appender-ref ref="console" />
-    </logger>
-
-    <root level="error"/>
+    <root level="debug">
+        <!-- <appender-ref ref="ROLLING" /> -->
+    </root>
 
 </configuration>
