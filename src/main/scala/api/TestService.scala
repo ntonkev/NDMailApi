@@ -4,6 +4,8 @@ import spray.routing.{HttpService, Directives}
 import akka.actor.{Props, ActorRef, ActorRefFactory}
 import akka.util.Timeout
 import models._
+import dal._
+import scala.slick.driver.PostgresDriver.simple._
 
 import spray.routing._
 import scala.concurrent.ExecutionContext
@@ -14,6 +16,8 @@ import models.NDApiRequest
 import models.Person
 import models.AuthTokens
 import spray.json.JsObject
+import core.Core
+import java.util.Properties
 
 class TestService(testing: ActorRef)(implicit context: ExecutionContext)
   extends Directives with  DefaultJsonFormats with AuthenticationDirectives
@@ -30,12 +34,33 @@ class TestService(testing: ActorRef)(implicit context: ExecutionContext)
     path("test") {
       get {
         //handleWith { tt: Test => testing ! tt }
+        /* Works fine */
 
-          /* Works fine */
+        try {
+          val URL = "jdbc:postgresql://ec2-54-221-223-92.compute-1.amazonaws.com:5432/db7k8198l73h6l"
+          val username = "aypkpqlvwdznkk"
+          val password = "blItMMzvKwWjEFI1ItcWhc-uix"
+          val props = new Properties
+          props.setProperty("ssl", "true")
+          props.setProperty("sslfactory", "org.postgresql.ssl.NonValidatingFactory")
+
+          val database = Database.forURL(URL, username, password, props)
+          val users = new user().users
+          val query = for (u <- users) yield u.username
+
+          val result = database.withSession{
+            session => query.list() (session)
+          }
+
+          println("Test - " + result(0).toString())
+
+        } catch {
+          case e: Exception =>
+            println(e.getStackTraceString)
+        }
           complete {
             "Test route OK"
           }
-
       }
     }~
     path("person") {
