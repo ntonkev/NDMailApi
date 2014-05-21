@@ -61,5 +61,6 @@ trait tables {
     val systemstatusid: Column[Int] = column[Int]("systemstatusid")
   }
 
+
   val users = TableQuery[User]
 }
