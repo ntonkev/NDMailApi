@@ -4,7 +4,6 @@ import spray.routing.{HttpService, Directives}
 import akka.actor.{Props, ActorRef, ActorRefFactory}
 import akka.util.Timeout
 import models._
-import dal._
 import scala.slick.driver.PostgresDriver.simple._
 
 import spray.routing._
@@ -45,14 +44,14 @@ class TestService(testing: ActorRef)(implicit context: ExecutionContext)
           props.setProperty("sslfactory", "org.postgresql.ssl.NonValidatingFactory")
 
           val database = Database.forURL(URL, username, password, props)
-          val users = new user().users
-          val query = for (u <- users) yield u.username
+
+          val query = for (u <- dal.DAL.users) yield u.email
 
           val result = database.withSession{
             session => query.list() (session)
           }
 
-          println("Test - " + result(0).toString())
+          println(result(0).toString())
 
         } catch {
           case e: Exception =>

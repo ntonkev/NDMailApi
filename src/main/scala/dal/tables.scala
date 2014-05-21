@@ -2,11 +2,11 @@ package dal
 
 import java.util.UUID
 
-/*
-object Tables extends {
+
+object DAL extends {
   val profile = scala.slick.driver.PostgresDriver
 } with tables
-*/
+
 
 case class Page[A] (items: Seq[A], page: Int, offset: Long, total: Long) {
   lazy val prev = Option(page - 1).filter(_ >= 0)
