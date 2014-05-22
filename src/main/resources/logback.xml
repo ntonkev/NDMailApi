@@ -36,6 +36,9 @@
 
     <logger name="auth-rolling" level="INFO">
         <appender-ref ref="AUTH-ROLLING" />
+    </logger>
+
+    <logger name="error-rolling" level="ERROR">
         <appender-ref ref="ERROR-ROLLING" />
     </logger>
 
