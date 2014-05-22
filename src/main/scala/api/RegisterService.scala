@@ -4,6 +4,8 @@ import akka.actor.ActorRef
 import scala.concurrent.ExecutionContext
 import spray.routing.Directives
 import models.ndapidtos.{RegisterModel, DeviceRegisterModel}
+import api.RegisterActor._
+import models.{ErrorStatus, NDApiResponse}
 
 /**
  * Created by nikolatonkev on 2014-05-20.
@@ -13,6 +15,7 @@ class RegisterService(registering: ActorRef)(implicit context: ExecutionContext)
 
   implicit val DeviceRegisterFormater = jsonFormat2(DeviceRegisterModel)
   implicit val RegisterFormater = jsonFormat5(RegisterModel)
+  implicit val NDResponseFormater = jsonFormat3(NDApiResponse[Boolean])
 
   //http PUT http://localhost:8080/register < register.json
   //http PUT http://localhost:8080/registerdevice < registerdevice.json
@@ -21,7 +24,10 @@ class RegisterService(registering: ActorRef)(implicit context: ExecutionContext)
       entity(as[RegisterModel]) { ent =>
         put {
           complete {
-            ent
+            val data = Register(ent)
+            val response = new NDApiResponse[Boolean](ErrorStatus.None, "", data)
+            response
+            //ent
           }
         }
       }
@@ -30,7 +36,10 @@ class RegisterService(registering: ActorRef)(implicit context: ExecutionContext)
       entity(as[DeviceRegisterModel]) { ent =>
         put {
           complete {
-            ent
+            val data = RegisterDevice(ent)
+            val response = new NDApiResponse[Boolean](ErrorStatus.None, "", data)
+            response
+            //ent
           }
         }
       }

@@ -2,17 +2,21 @@ package api
 
 import akka.actor.Actor
 import models.ndapidtos.{RegisterModel, DeviceRegisterModel}
+import utils.{NDApiLogging}
+import models.{ErrorStatus, NDApiResponse}
+import java.util.logging.ErrorManager
 
 /**
  * Created by nikolatonkev on 2014-05-20.
  */
-object RegisterActor {
+object RegisterActor extends NDApiLogging {
 
-  def RegisterDevice(model: DeviceRegisterModel) = {
+  def RegisterDevice(model: DeviceRegisterModel): Boolean = {
+    errorLogger.error("Just a test!")
     true
   }
 
-  def Register(model: RegisterModel) = {
+  def Register(model: RegisterModel): Boolean = {
     true
   }
 

@@ -11,20 +11,21 @@ import models.{ErrorStatus, NDApiResponse}
 import akka.actor.Actor
 
 import org.slf4j.LoggerFactory
+import utils.NDApiLogging
 
 case class ErrorResponseException(responseStatus: StatusCode, response: Option[HttpEntity]) extends Exception
 
-class RoutedHttpService(route: Route) extends Actor with HttpService with akka.actor.ActorLogging with DefaultJsonFormats {
+class RoutedHttpService(route: Route) extends Actor with HttpService with akka.actor.ActorLogging with DefaultJsonFormats with NDApiLogging {
 
   implicit val NDResponseFormater = jsonFormat3(NDApiResponse[String])
 
   implicit def actorRefFactory = context
 
-  implicit def logger = LoggerFactory.getLogger("auth-rolling")
+  //implicit def logger = LoggerFactory.getLogger("auth-rolling")
 
   implicit val NDRejectionHandler = RejectionHandler{
     case AuthenticationFailedRejection(CredentialsRejected, realm) :: _ => ctx => {
-      logger.info("This request have not been authorized. Credentials are rejected.")
+      authLogger.info("This request have not been authorized. Credentials are rejected.")
       val response = new NDApiResponse[String](ErrorStatus.NotAuthenticated, "This request have not been authorized. Credentials are rejected.", "")
       ctx.complete(response)
     }
