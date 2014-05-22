@@ -29,6 +29,11 @@ class TestService(testing: ActorRef)(implicit context: ExecutionContext)
   implicit val NDRequestFormater = jsonFormat3(NDApiRequest[Person])
   implicit val NDResponseFormater = jsonFormat3(NDApiResponse[Person])
 
+
+  //http GET http://localhost:8080/test
+  //http GET http://localhost:8080/person < person_wrong_auth.json
+  //http GET http://localhost:8080/person < person_auth_ok.json
+
   val route =
     path("test") {
       get {

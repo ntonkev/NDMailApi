@@ -12,7 +12,7 @@ trait Api extends RouteConcatenation {
 
     val routes =
       new TestService(testing).route ~
-      new RegisterService(registering).regroute
+      new RegisterService(registering).route
 
 
   val rootService = system.actorOf(Props(new RoutedHttpService(routes)))

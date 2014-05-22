@@ -13,10 +13,10 @@ class RegisterService(registering: ActorRef)(implicit context: ExecutionContext)
 
   implicit val DeviceRegisterFormater = jsonFormat2(DeviceRegisterModel)
   implicit val RegisterFormater = jsonFormat5(RegisterModel)
-  //implicit val NDResponseFormater = jsonFormat3(NDApiResponse[Person])
 
-
-  val regroute =
+  //http PUT http://localhost:8080/register < register.json
+  //http PUT http://localhost:8080/registerdevice < registerdevice.json
+  val route =
     path("register") {
       entity(as[RegisterModel]) { ent =>
         put {
