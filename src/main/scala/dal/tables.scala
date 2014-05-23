@@ -7,7 +7,6 @@ object DAL extends {
   val profile = scala.slick.driver.PostgresDriver
 } with tables
 
-
 case class Page[A] (items: Seq[A], page: Int, offset: Long, total: Long) {
   lazy val prev = Option(page - 1).filter(_ >= 0)
   lazy val next = Option(page + 1).filter(_ => (offset + items.size) < total)
@@ -61,6 +60,21 @@ trait tables {
     val systemstatusid: Column[Int] = column[Int]("systemstatusid")
   }
 
-
   val users = TableQuery[User]
+
+  def findByName(name: String)(implicit s: Session): Option[UserRow] = {
+    users.where(_.username === name).firstOption
+  }
+
+  def findById(id: UUID)(implicit s: Session): Option[UserRow] = {
+    users.where(_.userid === id).firstOption
+  }
+
+  def insert(u : UserRow)(implicit s: Session) {
+    users.insert(u)
+  }
+
+  def delete(id: UUID)(implicit s: Session) {
+    users.where(_.userid === id).delete
+  }
 }

@@ -17,6 +17,7 @@ import models.AuthTokens
 import spray.json.JsObject
 import core.Core
 import java.util.Properties
+import java.util.UUID
 
 class TestService(testing: ActorRef)(implicit context: ExecutionContext)
   extends Directives with  DefaultJsonFormats with AuthenticationDirectives
@@ -50,13 +51,19 @@ class TestService(testing: ActorRef)(implicit context: ExecutionContext)
 
           val database = Database.forURL(URL, username, password, props)
 
-          val query = for (u <- dal.DAL.users) yield u.email
+          //val query = for (u <- dal.DAL.users) yield u.email
+
+          val u = new dal.DAL.UserRow(UUID.fromString("550e8400-e29b-41d4-a716-446655440111"),"test1","abc",Option("test1@test.com"),Option(""),Option(""),Option(2),1 )
+          //database.withSession{session => dal.DAL.insert(u)(session)}
+
+          database.withSession{session => dal.DAL.delete(UUID.fromString("550e8400-e29b-41d4-a716-446655440111"))(session)}
 
           val result = database.withSession{
-            session => query.list() (session)
+            //session => query.list() (session)
+            session => dal.DAL.findById(UUID.fromString("550e8400-e29b-41d4-a716-446655440000")) (session)
           }
 
-          println(result(0).toString())
+          println(result)
 
         } catch {
           case e: Exception =>
