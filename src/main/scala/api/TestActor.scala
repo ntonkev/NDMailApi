@@ -2,14 +2,14 @@ package api
 
 import akka.actor.{Actor, ActorLogging}
 import spray.routing.{Directives, HttpService}
-import models.Person
+import models.{ErrorStatus, NDApiResponse, Person}
 import utils.NDApiLogging
 
 object TestActor extends NDApiLogging {
   //case class Test
   //case class GetPerson(personId: Int)
 
-  def GetPerson(personId: Int): Person = {
+  def _GetPerson(personId: Int): Person = {
     try{
       val name: Option[String] = Some("Desy")
       val family: Option[String] = Some("Slaveva")
@@ -24,6 +24,25 @@ object TestActor extends NDApiLogging {
       null
     }
   }
+
+  def GetPerson(personId: Int): NDApiResponse[Person] = {
+    try
+    {
+      val name: Option[String] = Some("Desy")
+      val family: Option[String] = Some("Slaveva")
+      val age: Option[Int] = Some(38)
+      val person = new Person(personId, name, family, age)
+      new NDApiResponse[Person](ErrorStatus.None, "", person)
+    }
+    catch {
+      case e: Exception => {
+        errorLogger.error(e.getStackTraceString)
+      }
+      new NDApiResponse[Person](ErrorStatus.ErrorGettingData, "Error in function GetPerson: " + e.getLocalizedMessage(), null)
+    }
+  }
+
+
 }
 
 class TestActor extends Actor

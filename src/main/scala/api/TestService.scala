@@ -74,9 +74,12 @@ class TestService(testing: ActorRef)(implicit context: ExecutionContext)
             authenticate(authenticateUser(tokens)) {
               st =>
                 complete {
+                  /*
                   val person = GetPerson(1)
                   val response = new NDApiResponse[Person](ErrorStatus.None, "", person)
                   response
+                  */
+                  GetPerson(1)
                  }
             }
           }
