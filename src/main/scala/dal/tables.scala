@@ -1,6 +1,7 @@
 package dal
 
 import java.util.UUID
+import utils._
 
 
 object DAL extends {
@@ -12,7 +13,7 @@ case class Page[A] (items: Seq[A], page: Int, offset: Long, total: Long) {
   lazy val next = Option(page + 1).filter(_ => (offset + items.size) < total)
 }
 
-trait tables {
+trait tables extends NDApiLogging{
   val profile: scala.slick.driver.PostgresDriver
   import profile.simple._
   import scala.slick.jdbc.{GetResult => GR}
@@ -77,4 +78,22 @@ trait tables {
   def delete(id: UUID)(implicit s: Session) {
     users.where(_.userid === id).delete
   }
+
+  def update(id: UUID, u: UserRow)(implicit s: Session){
+    users.where(_.userid === id).update(u)
+  }
+
+  def count(filter: String)(implicit s: Session): Int = {
+    users.where(_.username.toLowerCase like filter.toLowerCase).countDistinct.asInstanceOf[Int]
+  }
+
+  def list(page: Int = 0, pageSize: Int = 10, orderBy: Int = 1, filter: String = "%")
+          (implicit s: Session) : Page[(Any,Any,Any,Any,Any,Any,Any,Any)] = {
+    val offset: Int = pageSize * page
+    val result = (for (u <- users) yield u).drop(offset).take(pageSize).list.map(
+      row => (row.userid, row.username, row.userpassword, row.email, row.secretquestion, row.secretanswer, row.transactionid, row.systemstatusid))
+    val totalRows = count(filter)
+    Page(result, page, offset, totalRows)
+ }
+
 }
