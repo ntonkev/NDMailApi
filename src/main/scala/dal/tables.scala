@@ -67,6 +67,10 @@ trait tables extends NDApiLogging{
     users.where(_.username === name).firstOption
   }
 
+  def findByEmail(email: String)(implicit s: Session): Option[UserRow] = {
+    users.where(_.email === email).firstOption
+  }
+
   def findById(id: UUID)(implicit s: Session): Option[UserRow] = {
     users.where(_.userid === id).firstOption
   }

@@ -1,6 +1,6 @@
 package api
 
-import akka.actor.ActorRef
+import akka.actor.{ActorSystem, ActorRef}
 import scala.concurrent.ExecutionContext
 import spray.routing.Directives
 import models.ndapidtos.{RegisterModel, DeviceRegisterModel}
@@ -10,7 +10,7 @@ import models.{ErrorStatus, NDApiResponse}
 /**
  * Created by nikolatonkev on 2014-05-20.
  */
-class RegisterService(registering: ActorRef)(implicit context: ExecutionContext)
+class RegisterService(system: ActorSystem, registering: ActorRef)(implicit context: ExecutionContext)
   extends Directives with  DefaultJsonFormats  {
 
   implicit val DeviceRegisterFormater = jsonFormat2(DeviceRegisterModel)
@@ -36,7 +36,7 @@ class RegisterService(registering: ActorRef)(implicit context: ExecutionContext)
       entity(as[DeviceRegisterModel]) { ent =>
         put {
           complete {
-            val data = RegisterDevice(ent)
+            val data = RegisterDevice(system, ent)
             val response = new NDApiResponse[Boolean](ErrorStatus.None, "", data)
             response
             //ent

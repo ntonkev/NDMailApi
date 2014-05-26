@@ -1,25 +1,12 @@
 package utils
 
 import models.NDApiResponse
+import java.util.UUID
 
 /**
  * Created by nikolatonkev on 2014-05-21.
  */
-
-/*
-abstract class NDApiUtilBase[G]{
-  def GetResponse(data: G): NDApiResponse[G]
+trait NDApiUtil {
+  implicit def GetNewUUID: UUID = java.util.UUID.randomUUID
+  //implicit def GetNewUUID: String = java.util.UUID.randomUUID.toString
 }
-
-trait NDApiUtil[G] extends NDApiUtilBase[G] {
-  def GetResponse(data: G): NDApiResponse[G]{
-    val response = new NDApiResponse[G](ErrorStatus., "", data)
-  }
-}
-*/
-
-/*
-class NDApiUtil extends NDApiUtilBase[G] {
-    import NDApiUtil[G]
-}
-*/

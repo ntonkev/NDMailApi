@@ -1,28 +1,25 @@
 package api
 
-import spray.routing.{HttpService, Directives}
-import akka.actor.{Props, ActorRef, ActorRefFactory}
+import akka.actor.{ActorSystem, ActorRef}
 import akka.util.Timeout
 import models._
-import scala.slick.driver.PostgresDriver.simple._
 
 import spray.routing._
 import scala.concurrent.ExecutionContext
 import api.TestActor._
 import Auth.{AuthenticationDirectives}
-import spray.http.HttpResponse
 import models.NDApiRequest
 import models.Person
 import models.AuthTokens
-import spray.json.JsObject
-import core.Core
-import java.util.Properties
 import java.util.UUID
+import dal.{dao}
 
-class TestService(testing: ActorRef)(implicit context: ExecutionContext)
+//import dal.DataObject
+
+class TestService(system:ActorSystem, testing: ActorRef)(implicit context: ExecutionContext)
   extends Directives with  DefaultJsonFormats with AuthenticationDirectives
 {
-
+  //import dal.DataObject
   import scala.concurrent.duration._
   implicit val timeout = Timeout(5.seconds)
 
@@ -42,25 +39,26 @@ class TestService(testing: ActorRef)(implicit context: ExecutionContext)
         /* Works fine */
 
         try {
-          val URL = "jdbc:postgresql://ec2-54-221-223-92.compute-1.amazonaws.com:5432/db7k8198l73h6l"
-          val username = "aypkpqlvwdznkk"
-          val password = "blItMMzvKwWjEFI1ItcWhc-uix"
-          val props = new Properties
-          props.setProperty("ssl", "true")
-          props.setProperty("sslfactory", "org.postgresql.ssl.NonValidatingFactory")
+          //val URL = "jdbc:postgresql://ec2-54-221-223-92.compute-1.amazonaws.com:5432/db7k8198l73h6l"
+          //val username = "aypkpqlvwdznkk"
+          //val password = "blItMMzvKwWjEFI1ItcWhc-uix"
+          //val props = new Properties
+          //props.setProperty("ssl", "true")
+          //props.setProperty("sslfactory", "org.postgresql.ssl.NonValidatingFactory")
 
-          val database = Database.forURL(URL, username, password, props)
-
+          //val database = Database.forURL(URL, username, password, props)
           //val query = for (u <- dal.DAL.users) yield u.email
 
-          val u = new dal.DAL.UserRow(UUID.fromString("550e8400-e29b-41d4-a716-446655440111"),"test1","abc",Option("test1@test.com"),Option(""),Option(""),Option(2),1 )
+          //val u = new dal.DAL.UserRow(UUID.fromString("550e8400-e29b-41d4-a716-446655440111"),"test1","abc",Option("test1@test.com"),Option(""),Option(""),Option(2),1 )
           //database.withSession{session => dal.DAL.insert(u)(session)}
 
           //database.withSession{session => dal.DAL.delete(UUID.fromString("550e8400-e29b-41d4-a716-446655440111"))(session)}
 
+          val database = dao.GetDataBase(system)
           val result = database.withSession{
             //session => query.list() (session)
-            session => dal.DAL.findById(UUID.fromString("550e8400-e29b-41d4-a716-446655440000")) (session)
+            //session => dal.DAL.findById(UUID.fromString("550e8400-e29b-41d4-a716-446655440000")) (session)
+            session => dal.DAL.findByEmail("test@test.com") (session)
           }
 
           println(result)
